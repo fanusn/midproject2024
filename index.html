@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>יחידות משרד העבודה</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-NNmUC5+DPuP5LfNvY+rlZd46R8YLMH8lZh/uP8+C2dAyAlqvTE8M0+BtXq9FkY1s"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-GLhlTQ8iK9tWKhj79qIqL5d6Cj5aP/uoKO3/R5CQ5FNDIjzI3yp//I1BqX0aZtY"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-zZtkFs8dAEW/fXEBlVN2yADIpZDJ9zEZmpEy5LUiDWo4L4pATX7XXOblqsTbXiU2YxIs3uLzrGHd5hKLyD0/3w=="
+        crossorigin="anonymous" />
+
+</head>
+<header>
+    <img src="img/top.png" alt="רקע משרד העבודה" style="width: 100%; height: auto;" />
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#">קבלת קהל</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#">שירותים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#">מדיניות ונהלים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#">פרסומים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">חדשות</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br />
+</header>
+
+<body>
+    <div class="p" style="padding-left: 20px; padding-right: 20px;">
+        <h1>
+            יחידות משרד העבודה
+        </h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="חיפוש">
+            <span id="clearSearchButton" class="clear-search">&#10005;</span>
+            <button id="searchButton" class="search-button">
+                <div class="icon"> <img src="img/iconsearch.png" alt="Search Icon"></div>
+            </button>
+        </div>
+    </div>
+
+
+    <p id="noResultsMessage" style="display: none;">אין תוצאות חיפוש</p>
+
+    <br />
+    <div class="container">
+        <div id="itemsContainer"></div>
+        </br>
+    </div>
+
+    <footer>
+        <div>
+            <span> משרד העבודה כאן עבורכם גם בזמן מלחמת חרבות ברזל </span>
+            <span id="footer" class="text-center"></span>
+        </div>
+        </br>
+        <img src="img/footerpic.png" alt="footerpic" style="width: 100%; height: 80%;" />
+    </footer>
+
+</body>
+
+
+</html>
